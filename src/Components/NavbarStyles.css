@@ -1,0 +1,28 @@
+.navbar {
+    background-color: #007bff;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.brand {
+    font-size: 1.5rem;
+}
+
+.get-users-button {
+    background-color: white;
+    color: #007bff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.get-users-button:hover {
+    background-color: #007bff;
+    color: white;
+}
